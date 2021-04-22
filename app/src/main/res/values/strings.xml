@@ -19,5 +19,6 @@
     <string name="title_food">Food</string>
     <string name="title_profile">Profile</string>
     <string name="profile_image">Profile Image</string>
+    <string name="add_post">Add Post</string>
 
 </resources>

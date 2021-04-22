@@ -65,15 +65,10 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-//                final String fullName = fullNameEdit.getText().toString().trim();
-//                final String mail = mailEdit.getText().toString().trim();
-//                final String phone = phoneEdit.getText().toString().trim();
-//                final String pass = passEdit.getText().toString().trim();
-
-                final String fullName = "Mohit";
-                final String mail = "mohitugemuge@gmail.com";
-                final String phone = "879393204723";
-                final String pass = "Rajat@8793";
+                final String fullName = fullNameEdit.getText().toString().trim();
+                final String mail = mailEdit.getText().toString().trim();
+                final String phone = phoneEdit.getText().toString().trim();
+                final String pass = passEdit.getText().toString().trim();
 
                 final User newUser = new User( fullName, mail, phone);
                 firebaseAuth.createUserWithEmailAndPassword( mail, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
