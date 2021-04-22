@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetStart="@id/start"
+        motion:constraintSetEnd="@+id/end"
+        motion:duration="1000">
+        <OnClick
+            motion:clickAction="transitionToEnd"
+            motion:targetId="@+id/addPetBtn" />
+    </Transition>
+
+    <Transition
+        motion:constraintSetStart="@id/end"
+        motion:constraintSetEnd="@+id/start"
+        motion:duration="1000">
+        <OnClick
+            motion:clickAction="transitionToEnd"
+            motion:targetId="@+id/createPetBtn" />
+    </Transition>
+
+
+    <ConstraintSet android:id="@+id/start">
+
+        <Constraint
+            android:layout_height="0dp"
+            motion:layout_editor_absoluteX="24dp"
+            android:layout_width="match_parent"
+            android:id="@+id/createPetLayout"
+            motion:layout_constraintTop_toBottomOf="parent" />
+
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+
+        <Constraint
+            android:visibility="gone"
+            android:id="@+id/addPetBtn" />
+
+
+    </ConstraintSet>
+
+</MotionScene>

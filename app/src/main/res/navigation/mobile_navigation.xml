@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_feed">
+
+    <fragment
+        android:id="@+id/navigation_feed"
+        android:name="com.example.petapplication.ui.feed.FeedFragment"
+        android:label="@string/title_feed"
+        tools:layout="@layout/fragment_feed" />
+
+    <fragment
+        android:id="@+id/navigation_medical"
+        android:name="com.example.petapplication.ui.medical.MedicalFragment"
+        android:label="@string/title_medical"
+        tools:layout="@layout/fragment_medical" />
+
+    <fragment
+        android:id="@+id/navigation_emergency"
+        android:name="com.example.petapplication.ui.emergency.EmergencyFragment"
+        android:label="@string/title_emergency"
+        tools:layout="@layout/fragment_emergency" />
+
+    <fragment
+        android:id="@+id/navigation_food"
+        android:name="com.example.petapplication.ui.food.FoodFragment"
+        android:label="@string/title_food"
+        tools:layout="@layout/fragment_food" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.petapplication.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

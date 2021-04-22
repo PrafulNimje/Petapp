@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_feed"
+        android:icon="@drawable/icon_feed"
+        android:title="@string/title_feed" />
+
+    <item
+        android:id="@+id/navigation_medical"
+        android:icon="@drawable/icon_medical"
+        android:title="@string/title_medical" />
+
+    <item
+        android:id="@+id/navigation_emergency"
+        android:icon="@drawable/icon_emergency"
+        android:title="@string/title_emergency" />
+
+    <item
+        android:id="@+id/navigation_food"
+        android:icon="@drawable/icon_food"
+        android:title="@string/title_food" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/icon_profile"
+        android:title="@string/title_profile" />
+
+</menu>

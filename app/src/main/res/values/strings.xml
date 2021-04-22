@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pet application</string>
+
+    <string-array name="petlist">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Parrot</item>
+        <item>Turtle</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_medical">Medical</string>
+    <string name="title_emergency">Emergency</string>
+    <string name="title_food">Food</string>
+    <string name="title_profile">Profile</string>
+    <string name="profile_image">Profile Image</string>
+
+</resources>
